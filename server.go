@@ -125,8 +125,8 @@ const (
 var (
 	// Notice
 	// Fill the AppId and AppCertificate generated in the Agora Console here.
-	AppId          = ""
-	AppCertificate = ""
+	AppId          = "87f323efeda84280a6a4f35ad5e93f80"
+	AppCertificate = "afb25a096bdf427da031b8154b9981a9"
 )
 
 // Init
