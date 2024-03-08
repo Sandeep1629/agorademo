@@ -110,7 +110,7 @@ type Response struct {
 
 const (
 	// Server port
-	ServerPort = ":8080"
+	ServerPort = "8080"
 	// Server url
 	Url = "/token/generate"
 
