@@ -7,5 +7,6 @@ services:
         ports:
             - 8080:8080
         environment:
-            - APP_ID=
-            - APP_CERTIFICATE=
+            - APP_ID=87f323efeda84280a6a4f35ad5e93f80
+            - APP_CERTIFICATE=afb25a096bdf427da031b8154b9981a9
+            - GIN_MODE=release
