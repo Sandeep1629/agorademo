@@ -49,7 +49,9 @@ import (
 	rtcTokenBuilder "github.com/AgoraIO/Tools/DynamicKey/AgoraDynamicKey/go/src/rtctokenbuilder2"
 	"github.com/gin-gonic/gin"
 )
-
+func init() {
+	gin.SetMode(gin.ReleaseMode)
+}
 // Request parameters
 type Request struct {
 	// Unique channel name for the AgoraRTC session in the string format
