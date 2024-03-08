@@ -9,6 +9,7 @@ FROM ubuntu:20.04
 WORKDIR /app
 ENV APP_ID=${APP_ID}
 ENV APP_CERTIFICATE=${APP_CERTIFICATE}
+ENV GIN_MODE=release
 
 COPY --from=builder /go/src/app ./
 
